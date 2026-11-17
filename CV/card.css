@@ -1,0 +1,75 @@
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Card container */
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+
+    text-align: center;
+
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image */
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Name */
+.card h2 {
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
+/* Job title */
+.job-title {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Description */
+.card p {
+    line-height: 1.5;
+    color: #64748b;
+}
+
+/* Button */
+.card button {
+    background-color: #2563eb;
+    color: white;
+
+    border: none;
+    padding: 12px 25px;
+
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #1e40af;
+}
